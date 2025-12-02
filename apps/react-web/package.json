@@ -3,14 +3,21 @@
   "private": true,
   "version": "0.0.1",
   "scripts": {
-    "dev": "react-scripts start",
-    "build": "react-scripts build",
-    "lint": "eslint src --ext .ts,.tsx"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "@invictus/utils": "*",
-    "@invictus/ui": "*"
+    "@invictus/ui": "*",
+    "@invictus/utils": "*"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "@types/react": "^18.2.14",
+    "@types/react-dom": "^18.2.6",
+    "vite": "^5.4.0",
+    "@vitejs/plugin-react": "^4.0.0"
   }
 }
