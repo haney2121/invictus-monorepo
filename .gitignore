@@ -1,0 +1,39 @@
+# Node
+node_modules/
+package-lock.json
+npm-debug.log*
+
+# Turborepo
+.turbo/
+.cache/
+
+# Build outputs
+dist/
+build/
+.expo/
+.expo-shared/
+
+# React / Web
+.next/
+out/
+
+# Expo / React Native
+*.expo.js
+*.expo.json
+
+# TypeScript
+*.tsbuildinfo
+
+# ESLint / Prettier
+.eslintcache
+.prettiercache
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Mac / OS
+.DS_Store
+Thumbs.db
